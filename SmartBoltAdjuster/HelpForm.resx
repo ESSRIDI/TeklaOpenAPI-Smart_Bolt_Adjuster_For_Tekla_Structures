@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="disclaimer_richTextBox.Text" xml:space="preserve">
+    <value>Date: March 23, 2024
+The "Smart Bolt Adjuster" software is provided on an "as is" and "as available" basis without warranties of any kind, either express or implied, including, but not limited to, warranties of merchantability, fitness for a particular purpose, or non-infringement. The creation of "Smart Bolt Adjuster" utilizes the Microsoft Visual Studio Community Edition and the Tekla Open API for students; however, this software is not endorsed, certified, or otherwise approved by Microsoft or Trimble Solutions Corporation.
+
+The developers of "Smart Bolt Adjuster" make no warranty that:
+
+The software will meet your requirements or expectations.
+The operation of the software will be uninterrupted, timely, secure, or error-free.
+Any errors in the software will be corrected.
+In no event shall the developers of "Smart Bolt Adjuster" be liable for any direct, indirect, incidental, special, consequential, or exemplary damages, including but not limited to, damages for loss of profits, goodwill, use, data, or other intangible losses (even if advised of the possibility of such damages), resulting from:
+
+The use or the inability to use the software.
+Unauthorized access to or alteration of your transmissions or data.
+Any other matter relating to the software.
+Usage of "Smart Bolt Adjuster" indicates your agreement to this disclaimer and any modifications thereof. If you do not agree with the terms of this disclaimer, do not use "Smart Bolt Adjuster".
+
+This disclaimer is subject to changes and modifications at any time without prior notice. It is the responsibility of the user to stay informed about the current terms of this disclaimer.</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Welcome to Smart Bolt Adjuster!
+# Smart Bolt Adjuster - For Tekla Structures
+
+**Before You Start**
+Make sure you have an Excel document prepared with two columns:
+
+- Column A: Bolt diameter
+- Column B: Extra length you want to add to the bolts in the Tekla model
+
+This Excel file will be used by Smart Bolt Adjuster to determine the adjustments needed for your bolts.
+
+**Step-by-Step Guide**
+
+1. **Launch Smart Bolt Adjuster**
+   Launch the Smart Bolt Adjuster application.
+
+2. **Select Your Excel File**
+   Inside Smart Bolt Adjuster, you will be prompted to select the Excel file you have prepared. Navigate to the file's location and select it. The application will read the bolt diameters and the additional lengths from your file.
+
+3. **Adjust Values Directly in the App (Optional)**
+   After opening your file, you have the option to adjust the diameter and extra length values directly in the application's interface, without needing to return to the Excel file. This feature allows for quick, on-the-fly adjustments to ensure your bolt specifications are perfectly tailored to your needs. This operation does not impact the Excel document.
+
+4. **Select Bolts in the Tekla Model**
+   It is now time to choose which bolts you want to adjust in your Tekla model. You have two options:
+   - Specific Bolt(s): If you want to adjust specific bolts, you can select them individually within the application. This option is ideal for targeted adjustments.
+   - All Bolts: If you prefer to apply adjustments to all bolts in the model, you can choose the option to select all bolts. This is efficient for comprehensive adjustments.
+
+5. **Apply Adjustments**
+   After selecting the bolts and making any necessary adjustments in the application, press the "Apply" button. Smart Bolt Adjuster will then apply the specified extra lengths to the selected bolts in your Tekla model.
+
+6. **Finalize**
+   Once the adjustments are applied, you can review your Tekla model to ensure everything looks correct. If necessary, adjustments can be reapplied or modified as needed.
+
+**Tips for Success**
+- Double-check your Excel document for accuracy before using it with Smart Bolt Adjuster.
+- Use the direct adjustment feature in the application for quick modifications without the need to alter your Excel file.
+- If adjusting specific bolts, ensure you correctly identify them in the Tekla model through the application.
+- Review adjustments in your Tekla model to confirm the changes meet your project requirements.
+
+**Note:**
+**This software is intended for non-commercial use and is compatible with the Tekla Open API Educational license. I developed this tool to showcase my capabilities in creating applications, plugins, and macros for Tekla Structures.**
+
+**Need Help?**
+If you encounter any issues or have questions about using Smart Bolt Adjuster, I'm here to help. Feel free to contact me for assistance or more information.</value>
+  </data>
+</root>
